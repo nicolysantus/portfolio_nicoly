@@ -4,12 +4,14 @@ import { FaGithub, FaGlobe, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 import ListaImg from '../../assets/img/listadetarefas.png';
 import BeautyImg from '../../assets/img/sitebeauty.png';
+import PortfolioImg from '../../assets/img/siteportfolio.png';
+import TesteImg from '../../assets/img/siteteste.png';
 
 const projectList = [
   {
     title: 'Lista de Tarefas',
     image: ListaImg,
-    technologies: ['dotnet', 'react', 'axios', 'sql'],
+    technologies: ['dotnet', 'react', 'axios', 'vite', 'sql'],
     github: 'https://github.com/nicolysantus/lista-tarefas',
     website: '#',
   },
@@ -19,6 +21,20 @@ const projectList = [
     technologies: ['html', 'css', 'js'],
     github: 'https://github.com/seu-repositorio/loja-maquiagem',
     website: '#',
+  },
+  {
+    title: 'Site Portifólio',
+    image: PortfolioImg,
+    technologies: ['react', 'vite', 'sass'],
+    github: 'https://github.com/seu-repositorio/loja-maquiagem',
+    website: 'https://portfolionicoly.vercel.app/',
+  },
+  {
+    title: 'Site Teste',
+    image: TesteImg,
+    technologies: ['dotnet', 'react', 'vite', 'sass'],
+    github: 'https://github.com/seu-repositorio/loja-maquiagem',
+    website: 'https://portfolionicoly.vercel.app/',
   },
 ];
 
