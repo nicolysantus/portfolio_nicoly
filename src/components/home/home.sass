@@ -27,7 +27,7 @@
         z-index: -1
 
     img
-        max-width: 28%
+        max-width: 28% 
         height: auto
         margin-bottom: 1rem
         border-radius: 80%
@@ -45,14 +45,14 @@
 
     .title
         padding: 0
-        font-size: 1.9rem
+        font-size: 1.9rem 
         background: variables.$bg-color-secondary
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
 
     .pg
         padding: 2rem
-        font-size: 1.6rem
+        font-size: 1.6rem 
         background: variables.$text-color
         -webkit-background-clip: text
         -webkit-text-fill-color: transparent
@@ -82,50 +82,31 @@
     // Versão mobile
     @media (max-width: 768px)
         #home
-            padding: 7rem
-            height: absolute
-            margin-top: -1rem
-        &::before
-            content: ''
-            position: absolute
-            top: 0
-            left: 0
-            right: 0
-            bottom: 0
-            background-image: url('../../assets/img/heart.png')
-            background-position: center
-            background-size: 900px
-            animation: moveBackground 29s infinite alternate
-            opacity: 0.03
-            z-index: -1
+        padding: 7rem
+        height: absolute
+        margin-top: -1rem
+
 
         img
-            max-width: 70%
+            max-width: 70% 
 
         h1
-            font-size: 2.5rem
+            font-size: 2.5rem 
             text-align: center
             white-space: nowrap
 
         .title
-            font-size: 1.5rem
+            font-size: 1.5rem 
             position: center
             margin-top: -1rem
 
         .pg
-            font-size: 1.2rem
+            font-size: 1.2rem 
             text-align: center
 
         #social-networks
             margin-top: 1rem
             align-items: center
-
-        @keyframes moveBackground
-            0%
-                background-position: top
-
-            100%
-                background-position: 100% bottom
 
 @keyframes moveBackground
     0%
