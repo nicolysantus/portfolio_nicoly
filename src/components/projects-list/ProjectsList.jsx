@@ -14,7 +14,7 @@ const projectList = [
     website: '#',
   },
   {
-    title: 'Loja de Maquiagem',
+    title: 'Site Beauty',
     image: BeautyImg,
     technologies: ['html', 'css', 'js'],
     github: 'https://github.com/seu-repositorio/loja-maquiagem',
