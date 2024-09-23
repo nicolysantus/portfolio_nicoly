@@ -5,7 +5,7 @@ import { FaGithub, FaGlobe, FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 import ListaImg from '../../assets/img/listadetarefas.png';
 import BeautyImg from '../../assets/img/sitebeauty.png';
 import PortfolioImg from '../../assets/img/siteportfolio.png';
-import TesteImg from '../../assets/img/siteteste.png';
+import YourVersionImg from '../../assets/img/site-your-version.png';
 
 const projectList = [
   {
@@ -16,25 +16,24 @@ const projectList = [
     website: '#',
   },
   {
-    title: 'Site Beauty',
-    image: BeautyImg,
-    technologies: ['html', 'css', 'js'],
-    github: 'https://github.com/seu-repositorio/loja-maquiagem',
-    website: '#',
+    title: 'Site Your Version',
+    image: YourVersionImg,
+    technologies: ['html', 'css', 'js', 'bootstrap', 'jquery'],
+    github: 'https://github.com/nicolysantus/site-your-version',
+    website: 'https://site-your-version.vercel.app/',
   },
   {
-    title: 'Site Portifólio',
+    title: 'Portifólio Nicoly',
     image: PortfolioImg,
     technologies: ['react', 'vite', 'sass'],
     github: 'https://github.com/seu-repositorio/loja-maquiagem',
     website: 'https://portfolionicoly.vercel.app/',
   },
   {
-    title: 'Site Teste',
-    image: TesteImg,
-    technologies: ['dotnet', 'react', 'vite', 'sass'],
-    github: 'https://github.com/seu-repositorio/loja-maquiagem',
-    website: 'https://portfolionicoly.vercel.app/',
+    title: 'Site Beauty',
+    image: BeautyImg,
+    technologies: ['html', 'css', 'js'],
+    github: 'https://github.com/nicolysantus/site-beauty/blob/main/README.md',
   },
 ];
 
