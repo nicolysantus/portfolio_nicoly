@@ -1,0 +1,44 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+#middle
+    background-color: variables.$body-bg-color-secondary
+    display: flex
+    align-items: center
+    padding: 1.2rem 1rem
+    justify-content: space-between
+    gap: 1rem
+    flex-wrap: nowrap 
+
+    @media (max-width: 900px)  
+        flex-direction: column
+        padding: 1.1rem
+        max-width: 800px
+        width: 100%
+        margin: 0 auto
+
+    section
+        display: flex
+        flex-direction: column
+
+    h2
+        color: variables.$text-color
+        font-size: 2.2rem
+        margin-bottom: 1.3rem
+        @include mixins.center
+        justify-content: start
+        gap: 1rem
+
+        &:after
+            @include mixins.gradient-border
+
+    p
+        color: variables.$text-color-secondary
+        margin-bottom: 1rem
+        line-height: 1.4rem
+        font-size: 1.2rem
+        text-align: left
+
+    .btn
+        @include mixins.btn
+        align-self: start

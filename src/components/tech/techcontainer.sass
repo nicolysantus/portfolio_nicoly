@@ -1,0 +1,90 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+#tech
+    height: absolute
+    display: flex
+    flex-direction: column
+    text-align: center
+    padding: 1.05rem
+    background-color: variables.$body-bg-color-secondary
+    margin-top: 1rem
+
+    h2
+        background-color: variables.$bg-color
+        text-align: left
+        font-size: 2.1rem
+        @include mixins.center
+        justify-content: start
+        gap: 1rem
+        font-family: variables.$font-league
+        position: relative
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+
+        &:after
+            @include mixins.gradient-border
+
+    p
+        color: variables.$text-color-secondary
+        font-size: 1.3rem
+        text-align: left
+        padding: 1.8rem
+        margin-top: -1.7rem
+
+.tech-grid
+    display: grid
+    grid-template-columns: repeat(3, 1fr) 
+    gap: 1.3rem
+    width: 100%
+
+    .tech-card
+        background-color: variables.$body-bg-color
+        border-radius: 12px
+        padding: 1rem
+        height: 140px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        text-align: center
+        transition: transform 0.3s
+        border: 2px solid transparent
+
+        &:hover
+            transform: scale(1.05)
+
+        h3
+            color: #FFFF
+            margin-bottom: 1rem
+            font-family: variables.$font-etna
+
+        svg
+            font-size: 3.1rem
+
+    #html svg
+        color: #e44d26
+
+    #css svg
+        color: #1572b6
+
+    #js svg
+        color: #f0db4f
+
+    #node svg
+        color: #83cd29
+
+    #react svg
+        color: #61dafb
+
+    #sql svg
+        color: #a91d22
+
+    #dotnet svg
+        color: #512bd4
+
+    #python svg
+        color: #ffd43b
+
+    #sass svg
+        color: #CC6699

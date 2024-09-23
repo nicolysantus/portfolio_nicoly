@@ -1,0 +1,47 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+#certificates
+    @include mixins.center
+    flex-direction: column
+    background-color: variables.$body-bg-color
+    text-align: center 
+    width: 100%
+    align-items: center
+    border-radius: 10px
+    padding: 4.4rem
+    font-family: variables.$font-league
+    font-weight: bold
+
+    h2
+        font-size: 2rem
+        margin-bottom: 1rem
+
+    .certificates-card
+        background-color: #192734
+        border-radius: 10px
+        padding: 1rem
+        margin-bottom: 1rem
+        width: 100%
+        text-align: center
+        border: 1px solid #444
+        text-decoration: none
+        p
+            margin: 0
+            font-size: 1.2rem
+        
+        a
+            text-decoration: none
+
+    img
+        margin-top: 2rem
+        width: 100px
+        height: auto
+        display: block
+        margin-left: auto
+        margin-right: auto
+
+    .btn
+        margin-top: 1rem 
+        margin-left: auto 
+        margin-right: auto

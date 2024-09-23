@@ -1,0 +1,88 @@
+@use '../../styles/variables'
+@use '../../styles/mixins'
+
+#projectslist
+    text-align: center
+
+h2
+    font-size: 2rem
+    margin-bottom: 20px
+    color: #ff66a5
+
+.project-carousel
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 20px
+    width: 100%
+
+    .projects-wrapper
+        display: flex
+        justify-content: space-around
+        gap: 20px
+        width: 100%
+
+        .project-card
+            flex: 1
+            background-color: variables.$body-bg-color-secondary
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1)
+            text-align: center
+            max-width: 100%
+            height: absolute
+
+            img
+                width: 80%
+                margin-top: -80px
+                height: absolute
+                object-fit: cover
+                position: relative
+
+            h3
+                margin-top: -45px
+                font-size: 1.8rem
+                font-family: variables.$font-league
+                color: variables.$text-color
+
+            .technologies
+                margin: 15px 0
+
+                .tech-badge
+                    background-color: variables.$body-bg-color
+                    color: #fff
+                    padding: 3px 10px
+                    border-radius: 5px
+                    margin: 5px
+                    display: inline-block
+
+            .project-links
+                margin-top: 15px
+
+                a
+                    color: #ff66a5
+                    font-size: 1.5rem
+                    margin: 0 10px
+                    text-decoration: none
+
+                &:hover
+                    color: #333
+
+    .arrow
+        font-size: 2rem
+        cursor: pointer
+        color: #ff66a5
+
+        &.left-arrow
+            margin-right: 20px
+
+        &.right-arrow
+            margin-left: 20px
+
+
+@media (max-width: 700px)
+    .projects-wrapper
+        flex-direction: column
+        align-items: center 
+        gap: 20px 
+
+        .project-card
+            margin: 20px 0
