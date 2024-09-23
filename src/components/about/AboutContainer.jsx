@@ -8,7 +8,7 @@ const AboutContainer = () => {
       Gosto de desenvolver aplicações que trazem impacto positivo e facilitam a vida das pessoas.
       Estou sempre aberta a novos desafios, com o objetivo de evoluir como desenvolvedora e contribuir com soluções inovadoras.
     </p>
-    <a href="https:linkedin.com/in/nicolysantus" className="btn">
+    <a href="https://www.linkedin.com/in/nicolysantus/" className="btn">
       Visitar Linkedin
     </a>
     <br/>

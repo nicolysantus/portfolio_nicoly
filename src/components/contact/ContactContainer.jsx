@@ -8,7 +8,7 @@ import '../contact/contactcontainer.sass';
 
 
 const socialNetworks = [
-    { name: " WhatsApp", icon: <FaWhatsapp />, url: "https://wa.me/11984015865" },
+    { name: " WhatsApp", icon: <FaWhatsapp />, url: "https://wa.me/5511984015865" },
   ];
 
 
@@ -33,7 +33,7 @@ const ContactContainer = () => {
         <AiFillEnvironment id="pin-icon" />
         <div>
             <h3>Localização</h3>
-            <p>Carapicuiba - SP</p>
+            <p>São Paulo - SP</p>
         </div>
     </div>
     <section id="social-networks">
