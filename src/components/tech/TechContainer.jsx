@@ -27,7 +27,7 @@ const stack = [
 const TechContainer = () => {
   return <section id='tech'>
     <h2>TECNOLOGIAS</h2>
-    <p>Tecnologias em que possuo conhecimento, seja em ambiente profissional ou acadêmico.</p>
+    <p>Tecnologias em que possuo conhecimento, seja profissional ou acadêmico.</p>
     <div className="tech-grid">
       {stack.map((tech) => (
         <div className="tech-card" id={tech.id} key={tech.id}>
