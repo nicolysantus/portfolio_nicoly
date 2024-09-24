@@ -27,4 +27,4 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 <img src="https://drive.google.com/uc?export=view&id=1J_kp7PqMz5OY2ViTzOc5CZkJBVOkNyxo" alt="Versão Desktop" width="800"/>
 
 ### Versão Mobile
-<img src="https://drive.google.com/uc?export=view&id=1cBEnIbWEkFIf2JQPpNimG51T7fgk83Bn" alt="Versão Mobile" width="300"/>
+<img src="https://drive.google.com/uc?export=view&id=1cBEnIbWEkFIf2JQPpNimG51T7fgk83Bn" alt="Versão Mobile" width="100"/>
