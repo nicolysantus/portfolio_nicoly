@@ -1,7 +1,5 @@
-# Portfólio
+# 👩🏻‍💻 Portfólio
 Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com React, para apresentar meus projetos, habilidades e informações de contato. Você pode acessar o portfólio online através deste link: [Portfólio Nicoly Santos](https://portfolionicoly.vercel.app).
-
-## 🖥️ Visão Geral
 
 ## 🚀 Tecnologias Utilizadas
 
