@@ -1,8 +1,23 @@
-# React + Vite
+# Portfólio
+Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com React, para apresentar meus projetos, habilidades e informações de contato. Você pode acessar o portfólio online através deste link: [Portfólio Nicoly Santos](https://portfolionicoly.vercel.app).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🖥️ Visão Geral
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **SASS**
+- **Vite**: 
+- **react router dom**
+- **react icons**
+
+## 🎨 Funcionalidades
+
+- **Seções do Portfólio**:
+  - **Home**: Introdução 
+  - **Sobre Mim**: Detalhes sobre minha carreira e minhas certificações.
+  - **Tecnologias**: Habilidades técnicas e ferramentas que utilizo.
+  - **Projetos**: Meus projetos, com links para os repositórios no GitHub.
+  - **Contato**: Formas de entrar em contato.
+  
+- **Responsividade**: Layout otimizado para diferentes tamanhos de tela (desktop, tablet e mobile).
