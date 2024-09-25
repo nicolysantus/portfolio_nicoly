@@ -5,7 +5,7 @@ Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvid
 
 - **React**
 - **SASS**
-- **Vite**: 
+- **Vite**
 - **react router dom**
 - **react icons**
 
